@@ -1,0 +1,310 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.timkiem {
+  width: 75%;
+}
+@media (min-width: 992px) {
+  .timkiem {
+    width: auto;
+  }
+}
+
+.fame_tieude {
+  margin-inline: 150px;
+}
+@media (max-width: 992px) {
+  .fame_tieude {
+    margin: 0px;
+  }
+}
+.fame_ket {
+  margin-inline: 150px;
+}
+@media (max-width: 992px) {
+  .fame_ket {
+    margin: 0px;
+  }
+}
+.sub {
+  margin-inline: 40px;
+}
+
+@media (min-width: 992px) {
+  .sub {
+    margin-inline: 450px;
+  }
+}
+
+.pass {
+  outline: none;
+  border: none;
+  margin-block: 4px;
+  border-radius: 19px;
+  height: 2.5rem;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  margin: 15px 0px;
+  height: 50px;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(120, 120, 120, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: rgb(129, 129, 129);
+}
+.input-box i {
+  position: absolute;
+  right: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.nho-pass {
+  margin: -15px 10px 0px 10px;
+}
+.nho-pass label input {
+  accent-color: rgb(177, 177, 177);
+  margin-right: 5px;
+}
+.input-box select {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(120, 120, 120, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+}
+.input-select {
+  position: relative;
+  height: 3rem;
+  padding: 0px;
+  margin: 15px 0px;
+}
+.input-select select {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  border: none;
+  outline: none;
+  padding: 0px;
+  border: 2px solid rgba(120, 120, 120, 0.2);
+  border-radius: 40px;
+  padding: 0px 0px 0px 20px;
+  appearance: none;
+  color: rgb(131, 131, 131);
+}
+
+.input-select select option {
+  border: none;
+  outline: none;
+}
+.input-select i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.img-box {
+  height: 8rem;
+  width: 8rem;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid rgb(177, 177, 177);
+}
+.sanpham-title {
+  background-color: rgb(56, 56, 56);
+}
+.sanpham-title button {
+  border: none;
+  outline: none;
+  border: 1.7px solid;
+  border-radius: 8px;
+  border-color: rgb(40, 237, 255);
+  background-color: rgb(76, 76, 76);
+  padding: 0px 3px;
+  color: rgb(40, 237, 255);
+  margin-block: 3px;
+  margin-inline: 5px;
+}
+
+.check {
+  border-bottom: 2px solid;
+  border-color: rgb(58, 58, 58);
+}
+
+@media (min-width: 992px) {
+  .check {
+    border: none;
+  }
+}
+
+.sanpham-list {
+  margin-inline: 20px;
+}
+
+@media (min-width: 992px) {
+  .sanpham-box {
+    width: 80%;
+  }
+  .thanhtoan {
+    width: 20%;
+  }
+}
+
+.the-item {
+  overflow: hidden;
+  outline: none;
+  transition: box-shadow 0.1s ease, transform 0.2s ease;
+}
+
+.the-item:hover {
+  box-shadow: 2px 2px 10px 0px rgb(147, 149, 150);
+  /* background-color: rgb(230, 230, 230); */
+  transform: translate(-1px, -1px);
+}
+.the-item img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.the-item:hover img {
+  transform: scale(1.09);
+}
+
+.danhmuc-item {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  transition: border 0.1s ease;
+}
+
+.danhmuc-item-active {
+  background-color: rgb(142, 142, 142);
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  border-left: 4px solid rgb(73, 73, 73);
+}
+.danhmuc-item:hover {
+  background-color: rgb(188, 188, 188);
+  border: none;
+  border-left: 4px solid rgb(73, 73, 73);
+}
+.danhmuc-tieude {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.w-if-70 {
+  width: 100%;
+}
+.w-if-30 {
+  width: 100%;
+}
+.w-if-50 {
+  width: 100%;
+}
+
+.w-if-40 {
+  width: 100%;
+}
+.w-if-60 {
+  width: 100%;
+}
+
+.w-40-50 {
+  width: 40%;
+}
+.w-60-50 {
+  width: 60%;
+}
+
+.wpx-md {
+  width: 140px;
+  height: 100px;
+}
+
+.bg-if-se {
+  background-color: none;
+}
+@media (min-width: 992px) {
+  .w-if-30 {
+    width: 30%;
+  }
+  .w-if-70 {
+    width: 70%;
+  }
+  .w-if-50 {
+    width: 50%;
+  }
+  .w-40-50 {
+    width: 50%;
+  }
+  .w-60-50 {
+    width: 50%;
+  }
+  .wpx-md {
+    width: 300px;
+    height: 200px;
+  }
+  .bg-if-se {
+    background-color: rgb(41, 41, 41);
+  }
+  .w-if-40 {
+    width: 40%;
+  }
+  .w-if-60 {
+    width: 60%;
+  }
+}
+
+.img-item {
+  width: 120px;
+  height: 80px;
+}
+.img-item img {
+  object-fit: cover;
+}
+
+.bg-fame-chinh {
+  background-color: rgb(23, 23, 23);
+}
+
+.text-h-light-dark {
+  color: rgb(221, 221, 221);
+}
+.text-p-light-dark {
+  color: rgb(131, 131, 131);
+}
+
+.p-if {
+  padding: 10px;
+}
+
+.offcanvas-start {
+  width: 300px !important;
+}
+@media (min-width: 992px) {
+  .p-if {
+    padding-inline: 100px;
+    padding-block: 40px;
+    padding-bottom: 20px;
+  }
+  .offcanvas-start {
+    width: 400px !important;
+  }
+}
